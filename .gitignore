@@ -1,0 +1,6 @@
+.DS_Store
+/dist/
+/build/
+/src/forg.egg-info
+poetry.lock
+Pipfile
