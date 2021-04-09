@@ -5,22 +5,23 @@ Extension,Kind of document,mime, Subtype, Subsub
 .avi,AVI: Audio Video Interleave,video,x-msvideo
 .azw,Amazon Kindle eBook format,application,vnd.amazon.ebook
 .bin,Any kind of binary data,application,octet-stream
-.bmp,Windows OS,2 Bitmap Graphics,image,bmp
+.bmp,Windows OS,image,image,bmp
 .bz,BZip archive,application,x-bzip
 .bz2,BZip2 archive,application,x-bzip2
 .csh,C-Shell script,application,x-csh
 .css,Cascading Style Sheets (CSS),text,css
 .csv,Comma-separated values (CSV),text,csv
-.doc,Microsoft Word,application,msword
-.docx,Microsoft Word (OpenXML),application,vnd.openxmlformats-officedocument.wordprocessingml.document
+.doc,Microsoft Word,document,msword
+.docx,Microsoft Word (OpenXML),document,vnd.openxmlformats-officedocument.wordprocessingml.document
+.dmg, Mac App, application, instalavel
 .eot,MS Embedded OpenType fonts,application,vnd.ms-fontobject
 .epub,Electronic publication (EPUB),application,epub+zip
 .gz,GZip Compressed Archive,application,gzip
 .gif,Graphics Interchange Format (GIF),image,gif
-.htm,HyperText Markup Language (HTML),text,html
-.html,HyperText Markup Language (HTML),text,html
+.htm,HyperText Markup Language (HTML),document,html
+.html,HyperText Markup Language (HTML),document,html
 .ico,Icon format,image,vnd.microsoft.icon
-.ics,iCalendar format,text,calendar
+.ics,iCalendar format,document,calendar
 .jar,Java Archive (JAR),application,java-archive
 .jpeg,JPEG images,image,jpeg
 .jpg,JPEG images,image,jpeg
@@ -36,10 +37,12 @@ Extension,Kind of document,mime, Subtype, Subsub
 .cda,CD audio,application,x-cdf
 .mp4,MP4 audio,video,mp4
 .mpeg,MPEG Video,video,mpeg
+.m4v,MPEG Video,video,mpeg
+.mov,MPEG Video,video,mpeg
 .mpkg,Apple Installer Package,application,vnd.apple.installer+xml
-.odp,OpenDocument presentation document,application,vnd.oasis.opendocument.presentation
-.ods,OpenDocument spreadsheet document,application,vnd.oasis.opendocument.spreadsheet
-.odt,OpenDocument text document,application,vnd.oasis.opendocument.text
+.odp,OpenDocument presentation document,document,vnd.oasis.opendocument.presentation
+.ods,OpenDocument spreadsheet document,document,vnd.oasis.opendocument.spreadsheet
+.odt,OpenDocument text document,document,vnd.oasis.opendocument.text
 .oga,OGG audio,audio,ogg
 .ogv,OGG video,video,ogg
 .ogx,OGG,application,ogg
@@ -47,12 +50,12 @@ Extension,Kind of document,mime, Subtype, Subsub
 .opus,Opus audio,audio,opus
 .otf,OpenType font,font,otf
 .png,Portable Network Graphics,image,png
-.pdf,Adobe Portable Document Format (PDF),application,pdf
+.pdf,Adobe Portable Document Format (PDF),document,pdf
 .php,Hypertext Preprocessor (Personal Home Page),application,x-httpd-php
-.ppt,Microsoft PowerPoint,application,vnd.ms-powerpoint
-.pptx,Microsoft PowerPoint (OpenXML),application,vnd.openxmlformats-officedocument.presentationml.presentation
+.ppt,Microsoft PowerPoint,document,vnd.ms-powerpoint
+.pptx,Microsoft PowerPoint (OpenXML),document,vnd.openxmlformats-officedocument.presentationml.presentation
 .rar,RAR archive,application,vnd.rar
-.rtf,Rich Text Format (RTF),application,rtf
+.rtf,Rich Text Format (RTF),document,rtf
 .sh,Bourne shell script,application,x-sh
 .svg,Scalable Vector Graphics (SVG),image,svg+xml
 .swf,Small web format (SWF) or Adobe Flash document,application,x-shockwave-flash
@@ -79,3 +82,21 @@ text,xml if readable from casual users (RFC 3023, section 3)
 .3gp,3GPP audio,video,video,3gpp
 .3g2,3GPP2 audio,video,video,3gpp2
 .7z,7-zip archive,application,x-7z-compressed
+.png, Image,image, image
+.mobi, Livro,book,book
+.azw3,Kindle,book,book
+.djvu,Kindle,book,book
+.dwg,Arquitetura,image,imagem
+.wma,audio,audio
+.wmv,video,video
+.key,Keynote,text
+.ppsx,Apresentacao,document
+.pkg,Pacote,application
+.ai,image,image
+.pem,chave,application
+.notesairdropdocument,notas mac,document
+.pkpass,acho que é chave,application
+.cdr,corel,image
+.rec,IR,receita
+.dec,IR,receita
+.dbk,IR,receita

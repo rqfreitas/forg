@@ -36,7 +36,7 @@ for filename in os.listdir(folder_to_track):
     lfilext = filename.split('.')
     filext = lfilext[-1]
     #print(filext)
-    componto = "." + filext
+    componto = "." + filext.lower()
     #checa tipo de midia
     mime = df.loc[df.Extension == componto,'mime']
 
