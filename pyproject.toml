@@ -6,8 +6,6 @@ authors = ["rqfreitas"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-watchdogs = "^1.8.2"
-watchdog = "^2.0.2"
 observer = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
