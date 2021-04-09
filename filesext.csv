@@ -100,3 +100,8 @@ text,xml if readable from casual users (RFC 3023, section 3)
 .rec,IR,receita
 .dec,IR,receita
 .dbk,IR,receita
+.pages,Pages,receita
+.xlsm,Excel,document
+.torrent,torrent,document
+.srt,Legenda,document
+.m3u8, audio ou video,audio
