@@ -1,6 +1,7 @@
 .DS_Store
+.vscode
 /dist/
 /build/
 /src/forg.egg-info
-poetry.lock
+.lock
 Pipfile
