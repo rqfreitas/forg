@@ -6,13 +6,12 @@ import json
 import time
 import pandas as pd
 
-
-df = pd.read_csv ('filesext.csv')
-mime = pd.DataFrame()
-
-
+#name = 'forg'
 def forg():
-    folder_to_track = os.getcwd() #'/Users/rodrigofreitas/Downloads'
+    df = pd.read_csv ('filesext.csv')
+    mime = pd.DataFrame()
+
+    folder_to_track = os.getcwd() # '/Users/rodrigofreitas/Documents' #
     folder_destination = folder_to_track + "/forg"
 
 
@@ -47,16 +46,8 @@ def forg():
                 #print(new_destination)
             os.rename(src, new_destination)
 
-    
-            
-#main
 def main():
-    forg()
-
-if __name__ == "__main__":
+    forg()              
+#main
+if __name__ == '__main__':
     main()
-
-
-
-
-
