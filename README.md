@@ -12,8 +12,9 @@ Simple File & Folder Organazer in python. Based on Kalle Hallden snippet.
 - Choose any folder from terminal.
 - Run the command(from inside of the chosen folder):
 
-``` 
-forg
+ ``` 
+ forg
+ 
 
 
  It creates a folder called forg inside the current page, and based in a list of file extension, it creates subfolders in forg and move files there categorizing them by type.
